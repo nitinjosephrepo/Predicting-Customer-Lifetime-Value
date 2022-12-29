@@ -52,7 +52,9 @@ understand the Customer Lifetime Value for individual customers help marketers
 |sales_sum_M_5  | 1.255455      | 
 
 As we can see from the coeffficient output, we can easily find which features have a negative correlation with the target( 3-month customer value) and which features have positive 
-correlation with the target. **For example 2nd & 3rd & 4th most recent 3 months (Sales_avg_M_4, Sales_avg_M_5, Sales_avg_5) have a negative impact on the next 3 month customer value.
+correlation with the target. 
+
+**For example 2nd & 3rd & 4th most recent 3 months (Sales_avg_M_4, Sales_avg_M_5, Sales_avg_5) have a negative impact on the next 3 month customer value.
 This means that the higher the purchase amount in M_3,M_4 and M_5 the lower the next 3 month purchase is going to be. On the other hands the most recent 
 3-month (Sales_avg_M_2) is positively correlated with the next 3 month customer value.** 
 
